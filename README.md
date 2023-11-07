@@ -7,3 +7,8 @@ For the moment, the objective is to find an easy way to implement RS485 on an Ar
 
 The code result seems very simple and cool, but I spent many and many hours to find a way to get something from this wind sensor.
 So I think it will interest everyone that have to implement RS485.
+
+Update the 7 november 2023:
+---------------------------
+
+After some tests, with IDE 1.8.16, SoftwareSerial is integrated in IDE. However this version of SoftSerial the code will not work anymore unless to change RX pin to 2 and TX pin to 3.
